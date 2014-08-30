@@ -11,11 +11,6 @@ process.argv.forEach(function (val, index, array) {
     }
 });
 
-if(!errorLog || !accessLog){
-    console.log('Specify access and error logs');
-    return;
-}
-
 if(!port){
     console.log('Specify port');
     return;
