@@ -23,7 +23,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "./bin/contact_me.php",
+                url: "/sendMessage",
                 type: "POST",
                 data: {
                     name: name,
@@ -54,12 +54,12 @@ $(function() {
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
-                },
+                }
             })
         },
         filter: function() {
             return $(this).is(":visible");
-        },
+        }
     });
 
     $("a[data-toggle=\"tab\"]").click(function(e) {
