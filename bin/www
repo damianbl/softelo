@@ -2,14 +2,14 @@
 var debug = require('debug')('softelo');
 var app = require('../app');
 
-var port;
+var port = 3000;
 
-process.argv.forEach(function (val, index, array) {
-    if (!isNaN(val)) {
-        console.log('starting on port: ' + val);
-        port = val;
-    }
-});
+//process.argv.forEach(function (val, index, array) {
+//    if (!isNaN(val)) {
+//        console.log('starting on port: ' + val);
+//        port = val;
+//    }
+//});
 
 if(!port){
     console.log('Specify port');
