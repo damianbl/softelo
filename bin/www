@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 var debug = require('debug')('softelo');
 var app = require('../app');
+var config = require('../config.json')[process.env.NODE_ENV || 'production'];
 
-var port = 3000;
+var port = config.port;
 
 //process.argv.forEach(function (val, index, array) {
 //    if (!isNaN(val)) {
@@ -11,15 +12,15 @@ var port = 3000;
 //    }
 //});
 
-if(!port){
-    console.log('Specify port');
-    return;
+if (!port) {
+  console.log('Specify port');
+  return;
 }
 
 app.set('port', port);
 
 //app.set('port', process.env.PORT || port);
 
-var server = app.listen(app.get('port'), function () {
-    debug('Express server listening on port ' + server.address().port);
+var server = app.listen(app.get('port'), function() {
+  debug('Express server listening on port ' + server.address().port);
 });
