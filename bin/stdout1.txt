@@ -1,0 +1,17 @@
+starting on port: 3005
+Server started on port 3005
+[90mGET / [32m200 [90m12ms - 11.75kb[0m
+[90mGET /css/modern-business.css [32m200 [90m6ms - 1.49kb[0m
+[90mGET /css/bootstrap.min.css [32m200 [90m7ms - 106.95kb[0m
+[90mGET /font-awesome-4.1.0/css/font-awesome.min.css [32m200 [90m3ms - 20.28kb[0m
+[90mGET /js/jquery-1.11.0.js [32m200 [90m2ms - 94.12kb[0m
+[90mGET /js/bootstrap.min.js [32m200 [90m2ms - 31.07kb[0m
+[90mGET /images/gscomputers26.png [32m200 [90m2ms - 8.87kb[0m
+[90mGET /images/logo.jpg.png [32m200 [90m2ms - 57.76kb[0m
+[90mGET /fonts/glyphicons-halflings-regular.woff [32m200 [90m2ms - 22.77kb[0m
+[90mGET /images/fotolia1.jpg [32m200 [90m4ms - 498.75kb[0m
+[90mGET /css/bootstrap.min.css [36m304 [90m4ms[0m
+[90mGET /css/modern-business.css [36m304 [90m4ms[0m
+[90mGET /font-awesome-4.1.0/css/font-awesome.min.css [36m304 [90m3ms[0m
+[90mGET /images/fotolia2.jpg [32m200 [90m5ms - 337.73kb[0m
+[90mGET /images/fotolia3.jpg [32m200 [90m4ms - 232.05kb[0m

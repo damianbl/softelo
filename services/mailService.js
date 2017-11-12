@@ -5,7 +5,7 @@ exports.sendEmail = function (email, message, name, phone) {
         service: 'Gmail',
         auth: {
             user: 'softelo.info@gmail.com',
-            pass: 'softelo19284'
+            pass: 'Softelo19021984@*'
         }
     });
 

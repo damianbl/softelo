@@ -4,7 +4,7 @@ var mailService = require('../services/mailService');
 
 /* GET home page. */
 router.get('/', function (req, res) {
-    res.sendfile('public/index.html');
+    res.sendfile('../public/index.html');
 });
 
 router.post('/sendMessage', function (req, res) {
